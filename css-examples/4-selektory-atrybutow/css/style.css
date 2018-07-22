@@ -8,10 +8,10 @@ a[title="Main page"] {
 /*szuka odseparowy fragment tekstu*/
 a[title~="me"] {
     color: yellow;
-    
+}
     
 /*wszystkie zaqwierajace ciąg tion*/
-}a[title*="tion"] {
+a[title*="tion"] {
     color: blue;
 }
 
