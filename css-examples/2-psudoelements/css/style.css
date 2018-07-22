@@ -1,0 +1,13 @@
+.comment {
+    font-size: 14px;
+    color: brown;
+}
+
+/*pseudoelementy, musza miec wlasciwosc content!*/
+/*dizalaj dla tego lub tego to daj po przecinku*/
+.comment::before, .comment::after {
+    font-size: 16px;
+    content: 'abc';
+    color: green;
+}
+

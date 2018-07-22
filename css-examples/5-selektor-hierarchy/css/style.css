@@ -1,0 +1,21 @@
+/*selektor klasy*/
+#paragraph {
+    color: red;
+}
+
+/*selektor identyfikatora*/
+#paragraph {
+    color: green;
+}
+
+
+/*selektor znacznika*/
+p {
+    color: yellow;
+}
+
+/*selector uniwersalny*/
+* {
+    color: blueviolet;
+}
+
