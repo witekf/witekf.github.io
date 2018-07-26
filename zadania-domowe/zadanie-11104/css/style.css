@@ -4,6 +4,6 @@ input {
 }
 
 
-input#radio, input#agree, p {
+input.radio, input#agree, p {
     display: inline;
 }
