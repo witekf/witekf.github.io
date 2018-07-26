@@ -1,0 +1,9 @@
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+input#radio, input#agree, p {
+    display: inline;
+}

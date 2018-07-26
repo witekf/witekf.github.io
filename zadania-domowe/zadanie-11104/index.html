@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <form action="https://formspree.io/tauinstalacje@gmail.com" method="POST">
+    <label for="firstname">Imię:</label>
+    <input id="firstname" type="text" name="firstname" required>
+    <label for="lastname">Nazwisko:</label>
+    <input id="lastname" type="text" name="lastname" required>
+    <label for="mail">E-mail:</label>
+    <input id="mail" type="email" name="mail" required>
+    <label for="tel">Telefon:</label>
+    <input id="tel" type="tel" name="phone">
+    <label for="city">Miejscowość: </label>
+    <select id="city" name="city">
+      <option value="Kraków">Kraków</option>
+      <option value="Warszawa">Warszawa</option>
+      <option value="Gdańsk">Gdańsk</option>
+    </select><br /> 
+    <p>Płeć: </p>
+    <input id="radio" type="radio" name="gender" checked>Mężczyzna
+    <input id="radio" type="radio" name="gender">Kobieta
+    <input id="radio" type="radio" name="gender">Inna <br />
+    <input id="agree" type="checkbox" name="agree">
+    <label for="agree">Zgoda na przetwarzanie danych</label><br />
+    <label for="mess">Wiadomość</label><br />
+    <textarea name="message" id="mess" cols="30" rows="10"></textarea><br />
+    <input type="submit" value="Send">
+</form>
+</body>
+</html>
