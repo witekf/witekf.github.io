@@ -1,0 +1,59 @@
+div#relative{
+    position: relative;
+}
+
+div#absolute{
+    position: absolute;
+}
+
+div#relative > ul {
+    display: block;
+    margin: auto;
+}
+
+div#absolute > ul {
+    display: block;
+    margin: auto;
+}
+li.square {
+    display: inline-block;
+    width: 200px;
+	height: 200px;
+}
+
+li.circle {
+    display: inline-block;
+    width: 100px;
+	height: 100px;
+	background-color: black;
+	border-radius: 100%;
+
+}
+li#uppersqr1 {
+    background-color: red;
+}
+li#uppersqr2 {
+    background-color: blue;
+}
+li#uppersqr3 {
+    background-color: green;
+}
+li#centersqr1 {
+    background-color: yellow;
+}
+li#centersqr2 {
+    background-color: black;
+}
+li#centersqr3 {
+    background-color: orange;
+}
+li#bottomsqr1 {
+    background-color: purple;
+}
+li#bottomsqr2 {
+    background-color: gray;
+}
+li#bottomsqr3 {
+    background-color: pink;
+}
+
