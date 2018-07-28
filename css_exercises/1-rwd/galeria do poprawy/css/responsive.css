@@ -1,0 +1,22 @@
+#gallery, figure {
+    width: 100%;
+}
+
+@media (min-width: 480px) {
+    #gallery {
+        padding: 0 30px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    figure {
+        width: 49%;
+    }
+}
+
+@media (min-width: 992px) {
+    figure {
+        width: 33%;
+    }
+}
