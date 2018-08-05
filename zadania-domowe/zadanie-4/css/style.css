@@ -1,0 +1,22 @@
+figure {
+    width: 750px;
+    text-align: center;
+    position: relative;
+}
+
+
+.img-holder {
+    background-image: url(https://pl.wikipedia.org/wiki/Korsyka#/media/File:Corse-photosat.jpg);
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    width: 100%;
+}
+
+/*
+@media (min-width: 992px)
+    h1 {
+        top: 0;
+}
+*/
+
