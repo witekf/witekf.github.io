@@ -1,0 +1,7 @@
+implementujac bootstrapa:
+
+
+-uwaga, klasy moga miec !important (jezeli nie potrzebuje, usuwam klase ktora ma !important
+-nie nadpisujemy klas bootstapa, dodajemy swoja klase
+
+

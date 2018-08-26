@@ -1,0 +1,55 @@
+#first {
+    height: 300px;
+    width: 50%;
+    background-color: green;
+}
+
+#main-nav {
+/*  element blokowy-  przy pozycji zafixowanej element wylatuje nalezy rozciagnac, dopasowuje sie do kontentu*/
+    position: fixed;
+    width: 100%;
+    background-color: beige;
+    top: 0;
+    left: 0;
+    transition: all 0.4s;
+}
+
+#main-nav.affix {
+    background-color: rgba(255, 128, 82, 0.6);
+}
+
+
+#main-nav ul {
+/*    pozbywamy sie kropki*/
+    list-style: none;
+/*    pozbywamy sie padding i margin*/
+    margin: 0;
+    padding: 0;
+/*    elementy kolo siebie*/
+/*    elementy kolo siebie*/
+/*    jak wycentrowac inline w bloku*/
+    text-align: center;
+    
+}
+
+
+#main-nav ul .list-item {
+/*    jak wycentrowac inline w bloku*/
+    display: inline-block;
+    
+}
+
+/*zmianiamy kolor linka*/
+
+#main-nav ul .list-item a {
+    color: blue;
+    line-height: 50px;
+}
+
+
+
+#animacja {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}

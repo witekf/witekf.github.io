@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+<!--    //potrzebny kontener-->
+    
+    <div id="container"></div> 
+    
+    
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+    
+    <script type="text/babel"> 
+//    tlumacz reacta
+    
+    let imie = "Witek";
+
+//    metoda-funkcja przyjmuje 2 parametry
+    ReactDOM.render( 
+        <div>
+            <p>Akademia108</p>
+            <p>Krystian</p>
+            <p>{imie + " Fendrych"}</p>
+        </div>,
+        document.getElementById("container")
+    );
+    
+    </script>
+</body>
+</html>

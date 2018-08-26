@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto Slab";
+}
+
+#main-nav {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 0.6);
+}
+
+
+#main-nav a {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: "Roboto Slab";
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#main-header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+/*wysrodkuje horyzontanie dla row*/
+    justify-content: center;
+    text-align: center;
+/*wysrodkuje wertykalnie dla row*/
+    align-items: center;
+    color: white;
+    
+}
+
+
+#main-header h1,
+#main-header h2 {
+    margin-bottom: 50px;
+}
+
+
+/*SERVICES*/
+
+
+#services .fas {
+    width: 80px;
+    height: 80px;
+    background-color: #0ed8d6;
+    color: white;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#services .fas:hover {
+    color: #0ed8d6;
+    background-color: white;
+    transform: rotate(360deg);
+}
+
