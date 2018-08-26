@@ -47,6 +47,9 @@ body {
     margin-bottom: 50px;
 }
 
+section {
+    padding: 50px 0;
+}
 
 /*SERVICES*/
 
@@ -68,3 +71,101 @@ body {
     transform: rotate(360deg);
 }
 
+
+/*PORTFOLIO*/
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .content {
+    background-color: #fff;
+}
+
+#portfolio .content .overflow {
+    height: 300px;
+    overflow: hidden;
+}
+
+#portfolio .content .overflow .image {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.4s;
+}
+
+.mask {
+    height: 100%;
+    color: #fff;
+    background-color: rgba(14, 216, 214, 0.6);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    chowamy przez opacity bo sie da sterowac potem transitionem   */
+    opacity: 0;
+}
+
+
+
+
+.image1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+.image1:hover {
+    transform: scale(1.5);
+}
+.image1:hover .mask {
+    opacity: 1;
+}
+
+.image2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+.image2:hover {
+    transform: scale(1.5);
+}
+.image2:hover .mask {
+    opacity: 1;
+}
+
+.image3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+.image3:hover {
+    transform: scale(1.5);
+}
+.image3:hover .mask {
+    opacity: 1;
+}
+
+.image4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+.image4:hover {
+    transform: scale(1.5);
+}
+.image4:hover .mask {
+    opacity: 1;
+}
+
+.image5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+.image5:hover {
+    transform: scale(1.5);
+}
+.image5:hover .mask {
+    opacity: 1;
+}
+
+.image6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+.image6:hover {
+    transform: scale(1.5);
+}
+.image6:hover .mask {
+    opacity: 1;
+}
