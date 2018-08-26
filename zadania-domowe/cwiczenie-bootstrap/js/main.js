@@ -3,11 +3,36 @@
 //dodaje lub odejmuje klase do nav przy przewijaniu/scrollowaniu okna - jest lub znika przezroczysta rameczka nav
 
 $(document).ready(function() {
-  $(window).scroll(function () {
-      if($('#main-nav').outerHeight() < $(window).scrollTop()) {
+    ifScrolled();   
+    
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+    
+
+$(window).scroll(function () {
+    ifScrolled();
+});
+
+
+function ifScrolled() {
+    if ($(window).width() > 991) {
+        if($('#main-nav').outerHeight() < $(window).scrollTop()) {
           $('#main-nav').addClass('scrolled');
       } else {
           $('#main-nav').removeClass('scrolled');
       }
-  })  
-})
+    }
+}

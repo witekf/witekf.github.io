@@ -169,3 +169,77 @@ section {
 .image6:hover .mask {
     opacity: 1;
 }
+
+/*FIGURE*/
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #222;
+    transition: all 0.4s;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    background-color: #0ed8d6;
+}
+
+.social-media a i {
+    line-height: 50px;
+}
+
+
+
+/*CONTACT US*/
+
+#contact {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/footer/world-map.jpg);
+    color: #fff;
+}
+
+#contact input {
+    margin-bottom: 33px;
+    font-style: normal;
+}
+
+#contact textarea {
+    font-style: normal;
+}
+
+#contact .flexy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#contact .btn-aqua {
+    font-weight: 600;
+    background-color: #0ed8d6;
+    color: #fff;
+    border: 1 solid #0ed8d6;
+    transition: all 0.4s;
+/*    background-color: transparent;*/
+    margin-top: 10px;
+}
+
+
+/*FOOTER*/
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .lh {
+    line-height: 50px;
+    padding: 20px 0;
+}

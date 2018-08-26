@@ -1,0 +1,12 @@
+@media all and (max-width: 991px) {
+    #main-nav {
+        background-color: #fff;
+    }
+    #main-nav a {
+       color: #0ed8d6; 
+    }
+    #main-nav ul li {
+        border-bottom: 1px solid #222;
+        text-align: right;
+    }
+}
