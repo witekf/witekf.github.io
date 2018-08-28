@@ -1,0 +1,18 @@
+.main-container {
+    width: 400px;
+    height: 600px;
+    background-color: orange;
+/*    text-align: center;*/
+    margin: 100px 100px;
+    display: flex;
+    position: absolute;
+    
+}
+
+
+.main-display {
+    width: 300px;
+    height: 100px;
+    background-color: dimgray;
+    position: relative;
+}
